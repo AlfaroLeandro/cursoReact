@@ -6,8 +6,6 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
-
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
@@ -25,7 +23,7 @@ import sendHover from './icons/sendHover.png';
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
-import figma from './tech/figma.png';
+import java from './tech/java.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
@@ -57,7 +55,6 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
   backend,
   ux,
   frontend,
@@ -74,7 +71,7 @@ export {
   sendHover,
   css,
   docker,
-  figma,
+  java,
   git,
   graphql,
   html,

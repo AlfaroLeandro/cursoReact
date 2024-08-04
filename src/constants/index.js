@@ -12,7 +12,7 @@ import {
   tailwind,
   nodejs,
   git,
-  figma,
+  java,
   docker,
   postgresql,
   rubyrails,
@@ -113,8 +113,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'java',
+    icon: java,
   },
   {
     name: 'docker',

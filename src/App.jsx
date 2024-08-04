@@ -19,7 +19,7 @@ const App = () => {
       <div className="relative z-0">
         <div>
           <Navbar />
-          <Hero />
+          {/* <Hero /> */}
         </div>
 
         <div className="bg-about bg-cover bg-center bg-no-repeat">

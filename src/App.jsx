@@ -12,6 +12,10 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
+      <div className="bg-tech bg-cover bg-center bg-no-repeat" style={{height: '100vh'}}>
+        <Tech />
+      </div>
+
       <div className="relative z-0">
         <div>
           <Navbar />
@@ -22,9 +26,6 @@ const App = () => {
           <About />
         </div>
 
-        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
-          <Tech />
-        </div>
 
         <Projects />
 

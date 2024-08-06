@@ -15,13 +15,6 @@ const Hero = () => {
           className="w-full h-full sm:block hidden object-cover"
         />
       </div>
-      {/* <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
-        <img
-          src={worldmap}
-          alt="world map"
-          className="w-full h-full sm:hidden block object-cover"
-        />
-      </div> */}
       <section
         className="relative flex sm:flex-row flex-col w-full h-screen ">
         <div
@@ -42,7 +35,7 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Leandro
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>

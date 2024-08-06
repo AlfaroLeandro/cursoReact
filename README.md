@@ -83,11 +83,11 @@ npm run preview
 
 ## Authors
 
-👤 **Shaquille Ndunda**
+👤 **Leandro Alfaro**
 
 - GitHub: [@shaqdeff](https://github.com/shaqdeff)
-- Twitter: [@shaquillendunda](https://twitter.com/shaquillendunda)
-- LinkedIn: [Shaquille Ndunda](https://www.linkedin.com/in/shaquille-ndunda-b13a95107/)
+- Twitter: [@Leandrondunda](https://twitter.com/Leandrondunda)
+- LinkedIn: [Leandro Alfaro](https://www.linkedin.com/in/Leandro-ndunda-b13a95107/)
 
 ## Feedback and Contributions
 

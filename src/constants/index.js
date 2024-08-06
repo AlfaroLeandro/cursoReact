@@ -32,33 +32,33 @@ import {
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'Acerca de',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Proyectos',
   },
   {
     id: 'contact',
-    title: 'Contact',
+    title: 'Testimonios',
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Desarrollador Fullstack',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Arquitecto de software',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Diseño UX/UI',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Prototipado y maquetado',
     icon: prototyping,
   },
 ];

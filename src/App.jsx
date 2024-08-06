@@ -3,7 +3,7 @@ import {
   About,
   Contact,
   Experience,
-  Hero,
+  Footer,
   Navbar,
   Tech,
   Projects,
@@ -42,6 +42,8 @@ const App = () => {
           <Contact />
         </div>
       </div>
+
+      <Footer />
     </BrowserRouter>
   );
 };

@@ -8,6 +8,7 @@ import {
   Tech,
   Projects,
 } from './components';
+import Theme from './theme';
 
 const App = () => {
   return (
@@ -43,7 +44,10 @@ const App = () => {
         </div>
       </div>
 
-      <Footer />
+      <Theme>
+        <Footer />
+      </Theme>
+      
     </BrowserRouter>
   );
 };

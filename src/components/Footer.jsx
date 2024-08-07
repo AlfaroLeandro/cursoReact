@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import { Link } from '../GlobalComponents';
 import { SocialIcons } from '../HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -38,4 +39,4 @@ const Footer = () => {
   );
 };
 
-export default Footer(Footer, 'footer');
+export default Footer;

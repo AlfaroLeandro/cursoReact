@@ -23,7 +23,7 @@ const ProjectCard = ({
       className={`relative ${
         active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
       } flex items-center justify-center min-w-[170px] 
-      h-[420px] cursor-pointer card-shadow`}
+      h-[420px] cursor-pointer card-shadow duration-700 ease-[cubic-bezier(15,-1.2,2,1)]`}
       onClick={() => handleClick(id)}>
       <div
         className="absolute top-0 left-0 z-10 bg-jetLight 
@@ -116,19 +116,16 @@ const Projects = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Case Studies</p>
-        <h2 className={`${styles.sectionHeadTextLight}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadTextLight}`}>Proyectos.</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          These projects demonstrate my expertise with practical examples of
-          some of my work, including brief descriptions and links to code
-          repositories and live demos. They showcase my ability to tackle
-          intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+            Estos son algunos de los proyectos en los que he trabajado 
+            recientemente. El rol que desempeñe e incluyendo descripciones breves de 
+            los mismos y tecnologías involucradas.
         </motion.p>
       </div>
 

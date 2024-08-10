@@ -1,3 +1,11 @@
+#paleta de colores:
+#mas claro a mas oscuro
+#9D1D1B
+#A14847
+#75211F
+#4B3B3B
+#201414
+
 # Portfolio Template
 
 https://github.com/shaqdeff/Portfolio-Template/assets/92020713/eed76a82-e59d-440b-a04c-a2dc00a508b7

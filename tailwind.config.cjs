@@ -11,7 +11,7 @@ export default {
         'black-100': '#100d25',
         'black-200': '#090325',
         'white-100': '#f3f3f3',
-        flashWhite: '#f4f4f6',
+        flashWhite: '#A14847',
         platinum: '#e6e6e9',
         platinumLight: '#f4f4f5',
         timberWolf: '#d4d4d8',

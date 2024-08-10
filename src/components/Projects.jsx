@@ -23,7 +23,7 @@ const ProjectCard = ({
       className={`relative ${
         active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
       } flex items-center justify-center min-w-[170px] 
-      h-[420px] cursor-pointer card-shadow duration-700 ease-[cubic-bezier(15,-1.2,2,1)]`}
+      h-[420px] cursor-pointer card-shadow duration-200 ease-[cubic-bezier(15,2,2,1)]`}
       onClick={() => handleClick(id)}>
       <div
         className="absolute top-0 left-0 z-10 bg-jetLight 

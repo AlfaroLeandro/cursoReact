@@ -30,6 +30,8 @@ import reactjs from './tech/reactjs.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import spring from './tech/spring.png';
+import mysql from './tech/mysql.png';
+import kafka from './tech/kafka.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -82,5 +84,7 @@ export {
   dcc,
   kelhel,
   microverse,
-  spring
+  spring,
+  mysql,
+  kafka
 };

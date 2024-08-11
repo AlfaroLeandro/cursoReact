@@ -9,6 +9,8 @@ import {
   reactjs,
   git,
   java,
+  mysql,
+  kafka,
   docker,
   postgresql,
   graphql,
@@ -92,10 +94,17 @@ const technologies = [
     icon: postgresql,
   },
   {
+    name: 'mysql',
+    icon: mysql,
+  },
+  {
+    name: 'kafka',
+    icon: kafka,
+  },
+  {
     name: 'git',
     icon: git,
   },
-
   {
     name: 'docker',
     icon: docker,

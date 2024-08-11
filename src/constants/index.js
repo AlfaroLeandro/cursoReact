@@ -4,25 +4,20 @@ import {
   ux,
   prototyping,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
   git,
   java,
   docker,
   postgresql,
-  rubyrails,
   graphql,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
+  spring,
   coverhunt,
   dcc,
   kelhel,
@@ -65,6 +60,18 @@ const services = [
 
 const technologies = [
   {
+    name: 'java',
+    icon: java,
+  },
+  {
+    name: 'Spring',
+    icon: spring,
+  },
+  {
+    name: 'graphql',
+    icon: graphql,
+  },
+  {
     name: 'HTML 5',
     icon: html,
   },
@@ -77,32 +84,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
   },
   {
     name: 'postgresql',
@@ -112,10 +95,7 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  {
-    name: 'java',
-    icon: java,
-  },
+
   {
     name: 'docker',
     icon: docker,
@@ -124,32 +104,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Desarollador Full stack - Netegia',
+    company_name: 'NetOne',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Abr 2022 - Feb 2023',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Desarrollador Full stack - ODA',
+    company_name: 'UNLaM',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Mar 2023 - Dic 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'SSr Software Engineer - WISE CAPITAL',
+    company_name: 'NetOne',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'May 2023 - Actualidad',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Arquitecto de Software | Spring Reactive Kafka',
+    company_name: 'LoMt',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Dic 2023 - Actualidad',
   },
 ];
 

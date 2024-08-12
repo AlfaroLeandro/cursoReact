@@ -20,10 +20,10 @@ import {
   movie,
   nyeusi,
   spring,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  wise,
+  lomt,
+  oda,
+  netegia,
 } from '../assets';
 
 export const navLinks = [
@@ -115,28 +115,28 @@ const experiences = [
   {
     title: 'Desarollador Full stack - Netegia',
     company_name: 'NetOne',
-    icon: coverhunt,
+    icon: netegia,
     iconBg: '#333333',
-    date: 'Abr 2022 - Feb 2023',
+    date: 'Abr 2022 - May 2023',
   },
   {
     title: 'Desarrollador Full stack - ODA',
     company_name: 'UNLaM',
-    icon: microverse,
+    icon: oda,
     iconBg: '#333333',
     date: 'Mar 2023 - Dic 2023',
   },
   {
     title: 'SSr Software Engineer - WISE CAPITAL',
     company_name: 'NetOne',
-    icon: kelhel,
+    icon: wise,
     iconBg: '#333333',
     date: 'May 2023 - Actualidad',
   },
   {
     title: 'Arquitecto de Software | Spring Reactive Kafka',
     company_name: 'LoMt',
-    icon: dcc,
+    icon: lomt,
     iconBg: '#333333',
     date: 'Dic 2023 - Actualidad',
   },

@@ -33,10 +33,10 @@ import spring from './tech/spring.png';
 import mysql from './tech/mysql.png';
 import kafka from './tech/kafka.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import netegia from './company/netegia.png';
+import oda from './company/oda.png';
+import wise from './company/wise.png';
+import lomt from './company/lomt.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -74,17 +74,17 @@ export {
   javascript,
   postgresql,
   reactjs,
-  komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  lomt,
   spring,
+  komikult,
   mysql,
-  kafka
+  kafka,
+  wise,
+  oda,
+  netegia
 };

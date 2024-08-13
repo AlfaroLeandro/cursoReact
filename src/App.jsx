@@ -27,15 +27,14 @@ const App = () => {
           <About />
         </div>
 
+        <div style={{backgroundColor: '#69302f'}} className="bg-center bg-no-repeat">
+          <Projects />
+        </div>
 
-        <Projects />
 
-        <div
-          className="bg-experience bg-cover bg-center bg-no-repeat 
-            rounded-tl-[150px] rounded-br-[150px]">
-          <div
-            className="bg-experienceLight bg-cover bg-center 
-            bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
+        <div style={{backgroundColor: '#69302f'}}>
+          <div  className="bg-experience bg-cover bg-center bg-no-repeat 
+            rounded-tl-[150px]">
             <Experience />
           </div>
         </div>

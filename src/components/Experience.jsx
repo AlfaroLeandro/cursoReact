@@ -13,10 +13,10 @@ import { textVariant } from '../utils/motion';
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{
-      background: '#eaeaec',
+      background: '#eceaea',
       color: '#292929',
       boxShadow:
-        'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
+        'rgba(114, 74, 74, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
     }}
     contentArrowStyle={{
       borderRight: '7px solid  #232631',
@@ -56,10 +56,10 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
-          What I've done so far
+          Mi camino!
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
-          Work Experience.
+          Experiencia
         </h2>
       </motion.div>
 
@@ -81,7 +81,7 @@ const Experience = () => {
             contentArrowStyle={{
               borderRight: '7px solid  #232631',
             }}
-            iconStyle={{ background: '#333333' }}
+            iconStyle={{ background: '#8a4242' }}
             icon={
               <div className="flex justify-center items-center w-full h-full">
                 <img

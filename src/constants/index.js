@@ -150,15 +150,15 @@ const projects = [
     description: 'Sistema de Gestión para Pymes y Emprendedores.',
     tags: [
       {
-        name: 'react',
+        name: 'Java',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'Mysql',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'Thymeleaf',
         color: 'pink-text-gradient',
       },
     ],
@@ -172,15 +172,15 @@ const projects = [
       'Agente de mercado de capitales',
     tags: [
       {
-        name: 'react',
+        name: 'Springboot 3',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'node',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'Mysql',
         color: 'pink-text-gradient',
       },
     ],
@@ -193,15 +193,19 @@ const projects = [
     description: 'Ecommerce para Pymes',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Jazz',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'Yiqi',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'Tango',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Dragonfish',
         color: 'pink-text-gradient',
       },
     ],
@@ -214,15 +218,19 @@ const projects = [
     description: `Sistema Integral de Comunicación Policial`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'Springboot 3',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'WebRTC',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'Maps API',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Red neuronal',
         color: 'pink-text-gradient',
       },
     ],

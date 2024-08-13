@@ -74,7 +74,6 @@ const ProjectCard = ({
               {description}
             </p>
 
-            {console.log(demo)}
             {demo!=undefined && (
               <button
                 className="live-demo flex justify-between 

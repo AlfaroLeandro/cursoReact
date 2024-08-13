@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { close, menu, logotext } from '../assets';
+import { AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
+import { SocialIcons } from '../HeaderStyles';
+import {SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -46,6 +49,17 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li>
+            <SocialIcons href="https://github.com/AlfaroLeandro">
+              <AiFillGithub size="3rem" />
+            </SocialIcons>
+          </li>
+          <li>
+            <SocialIcons href="www.linkedin.com/in/leandro-alfaro-547864233">
+              <AiFillLinkedin size="3rem" />
+            </SocialIcons>
+
+          </li>
         </ul>
 
         {/* mobile */}

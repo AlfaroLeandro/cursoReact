@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { styles } from '../styles';
+import { close, logotext, menu } from '../assets';
 import { navLinks } from '../constants';
-import { close, menu, logotext } from '../assets';
-import { AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
-import { SocialIcons } from '../HeaderStyles';
-import {SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { styles } from '../styles';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -37,7 +36,7 @@ const Navbar = () => {
             className="sm:w-[90px] sm:h-[90px] w-[100px] h-[100px] -ml-[-0.5rem] object-contain"
           />
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
+        <ul className="list-none hidden sm:flex flex-row gap-8 mt-2 items-center">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -50,15 +49,19 @@ const Navbar = () => {
             </li>
           ))}
           <li>
-            <SocialIcons href="https://github.com/AlfaroLeandro">
+            <a target="_blank" href="https://github.com/AlfaroLeandro">
               <AiFillGithub size="3rem" />
-            </SocialIcons>
+            </a>
           </li>
           <li>
-            <SocialIcons href="www.linkedin.com/in/leandro-alfaro-547864233">
+            <a target="_blank" href="https://wa.me/1132553928?text=%C2%A1Hola!%20Estoy%20interesado%20en%20tu%20servicio%20como%20desarrollador!">
+              <FaWhatsapp size="3rem" />
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="www.linkedin.com/in/leandro-alfaro-547864233">
               <AiFillLinkedin size="3rem" />
-            </SocialIcons>
-
+            </a>
           </li>
         </ul>
 

@@ -2,6 +2,7 @@ import bwmap from './backgrounds/bw-map.jpeg';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
+import construccion from './backgrounds/construccion.png';
 
 import logotext from './logo/logo-text-black.png';
 
@@ -50,6 +51,7 @@ export {
   nairobi,
   whiteabstract,
   worldmap,
+  construccion,
   logotext,
   backend,
   ux,

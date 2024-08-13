@@ -163,7 +163,6 @@ const projects = [
       },
     ],
     image: pr_netegia,
-    repo: 'https://github.com/shaqdeff/KomiKult',
     demo: 'https://www.netegia.com/',
   },
   {
@@ -186,8 +185,7 @@ const projects = [
       },
     ],
     image: pr_wise,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    demo: 'https://wise.com.ar/',
   },
   {
     id: 'project-3',
@@ -208,8 +206,7 @@ const projects = [
       },
     ],
     image: pr_tornadostore,
-    repo: 'https://www.tornadostore.com/',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    demo: 'https://www.tornadostore.com/',
   },
   {
     id: 'project-4',
@@ -230,8 +227,6 @@ const projects = [
       },
     ],
     image: pr_oda,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
   }
 ];
 

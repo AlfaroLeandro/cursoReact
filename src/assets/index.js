@@ -40,7 +40,7 @@ import wise from './company/wise.png';
 import lomt from './company/lomt.png';
 
 import pr_netegia from './projects/netegia.png';
-import pr_oda from './projects/netegia.png';
+import pr_oda from './projects/oda.png';
 import pr_wise from './projects/wise.png';
 import pr_tornadostore from './projects/tornadostore.png';
 import movie from './projects/movie-metro.png';

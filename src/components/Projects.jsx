@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
-import { github, pineapple, pineappleHover } from '../assets';
+import { pineapple, pineappleHover } from '../assets';
 import { projects } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 
@@ -11,9 +11,9 @@ const ProjectCard = ({
   name,
   description,
   image,
-  repo,
   demo,
   index,
+  tags,
   active,
   handleClick,
 }) => {
@@ -50,6 +50,17 @@ const ProjectCard = ({
           <div
             className="absolute bottom-0 p-8 justify-start w-full 
             flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20">
+            <div className="absolute inset-0 flex justify-end m-3 space-x-2">
+              {tags.map((tag, index) => (
+                <span
+                  key={index}
+                  className={`text-sm font-medium py-1 px-2 rounded-full cursor-pointer`}
+                  style={{'color': '#c1e5fb', 'fontSize': '16px'}}
+                >
+                  {tag.name}
+                </span>
+              ))}
+            </div>
 
             <h2
               className="font-bold sm:text-[32px] text-[24px] 
@@ -62,34 +73,38 @@ const ProjectCard = ({
               font-poppins tracking-[1px]">
               {description}
             </p>
-            <button
-              className="live-demo flex justify-between 
-              sm:text-[16px] text-[14px] text-timberWolf 
-              font-bold font-beckman items-center py-5 pl-2 pr-3 
-              whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px] 
-              w-[125px] h-[46px] rounded-[10px] glassmorphism 
-              sm:mt-[22px] mt-[16px] hover:bg-battleGray 
-              hover:text-eerieBlack transition duration-[0.2s] 
-              ease-in-out"
-              onClick={() => window.open(demo, '_blank')}
-              onMouseOver={() => {
-                document
-                  .querySelector('.btn-icon')
-                  .setAttribute('src', pineappleHover);
-              }}
-              onMouseOut={() => {
-                document
-                  .querySelector('.btn-icon')
-                  .setAttribute('src', pineapple);
-              }}>
-              <img
-                src={pineapple}
-                alt="pineapple"
-                className="btn-icon sm:w-[34px] sm:h-[34px] 
-                  w-[30px] h-[30px] object-contain"
-              />
-              LIVE DEMO
-            </button>
+
+            {console.log(demo)}
+            {demo!=undefined && (
+              <button
+                className="live-demo flex justify-between 
+                sm:text-[16px] text-[14px] text-timberWolf 
+                font-bold font-beckman items-center py-5 pl-2 pr-3 
+                whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px] 
+                w-[125px] h-[46px] rounded-[10px] glassmorphism 
+                sm:mt-[22px] mt-[16px] hover:bg-battleGray 
+                hover:text-eerieBlack transition duration-[0.2s] 
+                ease-in-out"
+                onClick={() => window.open(demo, '_blank')}
+                onMouseOver={() => {
+                  document
+                    .querySelector('.btn-icon')
+                    .setAttribute('src', pineappleHover);
+                }}
+                onMouseOut={() => {
+                  document
+                    .querySelector('.btn-icon')
+                    .setAttribute('src', pineapple);
+                }}>
+                <img
+                  src={pineapple}
+                  alt="pineapple"
+                  className="btn-icon sm:w-[34px] sm:h-[34px] 
+                    w-[30px] h-[30px] object-contain"
+                />
+                IR A SITIO 
+              </button>
+            )}
           </div>
         </>
       )}

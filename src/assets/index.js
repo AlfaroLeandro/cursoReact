@@ -35,6 +35,7 @@ import mysql from './tech/mysql.png';
 import kafka from './tech/kafka.png';
 
 import netegia from './company/netegia.png';
+import tornado from './company/tornado.png';
 import oda from './company/oda.png';
 import wise from './company/wise.png';
 import lomt from './company/lomt.png';
@@ -43,8 +44,6 @@ import pr_netegia from './projects/netegia.png';
 import pr_oda from './projects/oda.png';
 import pr_wise from './projects/wise.png';
 import pr_tornadostore from './projects/tornadostore.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 export {
@@ -77,8 +76,6 @@ export {
   javascript,
   postgresql,
   reactjs,
-  movie,
-  nyeusi,
   space,
   lomt,
   spring,
@@ -90,5 +87,6 @@ export {
   kafka,
   wise,
   oda,
-  netegia
+  netegia,
+  tornado
 };

@@ -18,8 +18,7 @@ import {
   pr_netegia,
   pr_wise,
   pr_tornadostore,
-  movie,
-  nyeusi,
+  tornado,
   spring,
   wise,
   lomt,
@@ -118,7 +117,14 @@ const experiences = [
     company_name: 'NetOne',
     icon: netegia,
     iconBg: '#333333',
-    date: 'Abr 2022 - May 2023',
+    date: 'Abr 2022 - Oct 2022',
+  },
+  {
+    title: 'TornadoStore Middleware - Integraciones',
+    company_name: 'NetOne',
+    icon: tornado,
+    iconBg: '#333333',
+    date: 'Oct 2022 - May 2023',
   },
   {
     title: 'Desarrollador Full stack - ODA',
@@ -140,6 +146,14 @@ const experiences = [
     icon: lomt,
     iconBg: '#333333',
     date: 'Dic 2023 - Actualidad',
+  },
+];
+
+const testimonios = [
+  {
+    title: 'Desarollador Full stack - Netegia',
+    description: 'NetOne',
+    date: '13/08/2024',
   },
 ];
 
@@ -238,4 +252,4 @@ const projects = [
   }
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, testimonios };

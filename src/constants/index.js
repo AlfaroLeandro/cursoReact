@@ -151,9 +151,28 @@ const experiences = [
 
 const testimonios = [
   {
-    title: 'Desarollador Full stack - Netegia',
-    description: 'NetOne',
-    date: '13/08/2024',
+    index: 0,
+    name: 'name',
+    designation: 'designation',
+    testimonial: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    company: 'NetOne',
+    image: tornado,
+  },
+  {
+    index: 1,
+    name: 'name',
+    designation: 'designation',
+    testimonial: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    company: 'NetOne',
+    image: tornado,
+  },
+  {
+    index: 2,
+    name: 'name',
+    designation: 'designation',
+    testimonial: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    company: 'NetOne',
+    image: tornado,
   },
 ];
 

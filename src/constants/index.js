@@ -153,11 +153,11 @@ const testimonios = [
   {
     index: 0,
     name: 'Matías Basilotta',
-    designation: 'Lider técnico',
+    designation: 'Software Engeneer',
     testimonial: `Es una gran experiencia trabajar junto a Leandro!
     Su habilidad para liderar proyectos complejos, tanto en el front como en el backend, es impresionante. 
     Leandro siempre está dispuesto a escuchar y valorar las opiniones de los demás, lo que genera un ambiente de trabajo 
-    colaborativo y eficiente.`,
+    colaborativo y eficiente y siempre está dipuesto a debatir y tiene ideas interesantes para aportar.`,
     company: 'NetOne',
     image: tornado,
   },

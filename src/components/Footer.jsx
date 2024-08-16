@@ -12,7 +12,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://wa.me/1132553928?text=%C2%A1Hola!%20Estoy%20interesado%20en%20tu%20servicio%20como%20desarrollador!">Whatt's App</LinkItem>
+          <LinkItem target="_blank" href="https://wa.me/1132553928?text=%C2%A1Hola!%20Estoy%20interesado%20en%20tu%20servicio%20como%20desarrollador!">Whatt's App</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -26,10 +26,10 @@ const Footer = () => {
           <Slogan>Copyright &copy; {year} <Link href="https://www.leandroAlfaro.com">  Leandro Alfaro</Link>.</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/AlfaroLeandro">
+          <SocialIcons target="_blank" href="https://github.com/AlfaroLeandro">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="www.linkedin.com/in/leandro-alfaro-547864233">
+          <SocialIcons target="_blank" href="https://www.linkedin.com/in/leandro-alfaro-547864233">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>

@@ -1,8 +1,5 @@
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { bwmap } from '../assets';
 import { styles } from '../styles';
-import { navLinks } from '../constants';
-import { bwmap, worldmap } from '../assets';
 
 const Hero = () => {
   return (
@@ -39,8 +36,10 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+              Soy Leandro Alfaro, un arquitecto de software y desarrollador backend apasionado por crear soluciones tecnológicas innovadoras y escalables. 
+              <br className="sm:block hidden" />Con una sólida experiencia en el diseño y desarrollo de sistemas distribuidos, APIs y microservicios, transformo ideas complejas en productos 
+              <br className="sm:block hidden" />eficientes y de alto rendimiento. Mi misión es optimizar cada línea de código para asegurar que cada proyecto no solo cumpla, 
+              <br className="sm:block hidden" />sino que supere las expectativas.
             </p>
           </div>
           <div

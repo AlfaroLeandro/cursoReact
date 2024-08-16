@@ -59,7 +59,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a target="_blank" href="www.linkedin.com/in/leandro-alfaro-547864233">
+            <a target="_blank" href="https://www.linkedin.com/in/leandro-alfaro-547864233">
               <AiFillLinkedin size="3rem" />
             </a>
           </li>

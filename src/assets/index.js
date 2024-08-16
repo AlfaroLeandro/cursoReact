@@ -46,6 +46,12 @@ import pr_wise from './projects/wise.png';
 import pr_tornadostore from './projects/tornadostore.png';
 import space from './projects/space-hub.png';
 
+import martin from './testimonios/martin.jpg';
+import hernan from './testimonios/hernan.jpg';
+import matias from './testimonios/matias.jpg';
+
+import cv from './cv/cv.pdf';
+
 export {
   bwmap,
   nairobi,
@@ -88,5 +94,9 @@ export {
   wise,
   oda,
   netegia,
-  tornado
+  tornado,
+  martin,
+  hernan,
+  matias,
+  cv
 };

@@ -24,6 +24,10 @@ import {
   lomt,
   oda,
   netegia,
+  hernan,
+  matias,
+  martin,
+  cv
 } from '../assets';
 
 export const navLinks = [
@@ -159,7 +163,7 @@ const testimonios = [
     Leandro siempre está dispuesto a escuchar y valorar las opiniones de los demás, lo que genera un ambiente de trabajo 
     colaborativo y eficiente y siempre está dipuesto a debatir y tiene ideas interesantes para aportar.`,
     company: 'NetOne',
-    image: tornado,
+    image: matias,
   },
   {
     index: 1,
@@ -170,7 +174,7 @@ const testimonios = [
     En el tiempo que he trabajado con él, he visto cómo maneja con éxito proyectos desafiantes, 
     implementando soluciones innovadoras con tecnologías avanzadas.`,
     company: 'NetOne',
-    image: tornado,
+    image: hernan,
   },
   {
     index: 2,
@@ -180,7 +184,7 @@ const testimonios = [
     Su habilidad como arquitecto de software se refleja en la solidez y eficiencia de las estructuras que diseña. Cada API que entrega es clara, bien documentada y optimizada, 
     lo que facilita enormemente mi trabajo en el frontend.`,
     company: 'LoMt',
-    image: tornado,
+    image: martin,
   },
 ];
 
@@ -279,4 +283,4 @@ const projects = [
   }
 ];
 
-export { services, technologies, experiences, projects, testimonios };
+export { services, technologies, experiences, projects, testimonios, cv };

@@ -36,7 +36,7 @@ export const navLinks = [
     title: 'Proyectos',
   },
   {
-    id: 'contact',
+    id: 'testimonios',
     title: 'Testimonios',
   },
 ];
@@ -152,26 +152,34 @@ const experiences = [
 const testimonios = [
   {
     index: 0,
-    name: 'name',
-    designation: 'designation',
-    testimonial: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    name: 'Matías Basilotta',
+    designation: 'Lider técnico',
+    testimonial: `Es una gran experiencia trabajar junto a Leandro!
+    Su habilidad para liderar proyectos complejos, tanto en el front como en el backend, es impresionante. 
+    Leandro siempre está dispuesto a escuchar y valorar las opiniones de los demás, lo que genera un ambiente de trabajo 
+    colaborativo y eficiente.`,
     company: 'NetOne',
     image: tornado,
   },
   {
     index: 1,
-    name: 'name',
-    designation: 'designation',
-    testimonial: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    name: 'Hernán Marrapodi',
+    designation: 'Scrum Master',
+    testimonial: `Leandro es un profesional destacado que aporta no solo su conocimiento técnico, 
+    sino también una gran capacidad para gestionar proyectos y equipos. 
+    En el tiempo que he trabajado con él, he visto cómo maneja con éxito proyectos desafiantes, 
+    implementando soluciones innovadoras con tecnologías avanzadas.`,
     company: 'NetOne',
     image: tornado,
   },
   {
     index: 2,
-    name: 'name',
-    designation: 'designation',
-    testimonial: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-    company: 'NetOne',
+    name: 'Martín Lecuona',
+    designation: 'Desarrollador Front End',
+    testimonial: `Trabajar junto a Leandro como desarrollador backend ha sido una experiencia clave para mi crecimiento como frontend. 
+    Su habilidad como arquitecto de software se refleja en la solidez y eficiencia de las estructuras que diseña. Cada API que entrega es clara, bien documentada y optimizada, 
+    lo que facilita enormemente mi trabajo en el frontend.`,
+    company: 'LoMt',
     image: tornado,
   },
 ];

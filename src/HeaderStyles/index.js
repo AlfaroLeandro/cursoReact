@@ -63,8 +63,8 @@ export const NavLink = styled.a`
   }
 `;
 
-/// DropDown Contact
-export const ContactDropDown = styled.button`
+/// DropDown testimonios
+export const testimoniosDropDown = styled.button`
   border: none;
   display: flex;
   position: relative;

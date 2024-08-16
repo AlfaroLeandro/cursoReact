@@ -22,6 +22,8 @@ const styles = {
   heroSubText:
     'text-eerieBlack font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]',
 
+  sectionHeadText2:
+    'text-white font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins',
   sectionHeadText:
     'text-eerieBlack font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins',
   sectionHeadTextLight:
@@ -30,6 +32,8 @@ const styles = {
     'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
   sectionSubTextLight:
     'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
+  sectionSubTextLight2:
+    'text-white sm:text-[18px] text-[16px] uppercase font-poppins',
 };
 
 export { styles };

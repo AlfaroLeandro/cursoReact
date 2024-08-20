@@ -57,10 +57,10 @@ export default {
       fontFamily: {
         arenq: ['Arenq'],
         beckman: ['Beckman'],
-        mova: ['Mova'],
-        overcameBold: ['Overcame Bold'],
+        PermanentMarker: ['PermanentMarker'],
+        overcameBold: ['Poppins'],
         overcameOutline: ['Overcame Outline'],
-        poppins: ['Poppins', 'sans-serif'],
+        poppins: [ 'sans-serif', 'Poppins'],
       },
     },
   },

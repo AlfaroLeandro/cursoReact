@@ -30,7 +30,7 @@ const Hero = () => {
               Hi, I'm{' '}
               <span
                 className="sm:text-battleGray sm:text-[90px] 
-                text-eerieBlack text-[50px] font-mova
+                text-eerieBlack text-[50px] font-PermanentMarker
                 font-extrabold uppercase">
                 Leandro
               </span>

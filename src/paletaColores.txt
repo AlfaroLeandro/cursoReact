@@ -1,0 +1,7 @@
+#paleta de colores:
+#mas claro a mas oscuro
+#9D1D1B
+#A14847
+#75211F
+#4B3B3B
+#201414

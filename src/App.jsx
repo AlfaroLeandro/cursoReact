@@ -13,7 +13,7 @@ import Theme from './theme';
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="bg-tech bg-cover bg-center bg-no-repeat" style={{height: '100vh'}}>
+      <div className="bg-tech bg-cover bg-center bg-no-repeat min-h-screen">
         <Tech />
       </div>
 

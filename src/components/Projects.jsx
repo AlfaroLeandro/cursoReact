@@ -50,13 +50,13 @@ const ProjectCard = ({
           <div
             className="absolute bottom-0 p-8 justify-start w-full 
             flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20">
-            <div className="absolute inset-0 flex justify-end m-3 space-x-2">
+
+            <div className="absolute inset-0 lg:flex hidden justify-end m-3 space-x-2">
               {tags.map((tag, index) => (
                 <span
                   key={index}
-                  className={`text-sm font-medium py-1 px-2 rounded-full cursor-pointer`}
-                  style={{'color': '#c1e5fb', 'fontSize': '16px'}}
-                >
+                  className="text-sm font-medium py-1 px-2 rounded-full cursor-pointer"
+                  style={{ color: '#c1e5fb', fontSize: '16px' }}>
                   {tag.name}
                 </span>
               ))}
@@ -125,8 +125,7 @@ const Projects = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
             Estos son algunos de los proyectos en los que he trabajado 
-            recientemente. El rol que desempeñe e incluyendo descripciones breves de 
-            los mismos y tecnologías involucradas.
+            recientemente junto con el rol que desempeñé en ellos.
         </motion.p>
       </div>
 
